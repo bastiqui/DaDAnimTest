@@ -93,7 +93,6 @@ public class AnimationActivity extends AppCompatActivity {
 
     private void startAnim (View v, int id) {
         Animation animation = AnimationUtils.loadAnimation(AnimationActivity.this, id);
-
         v.startAnimation(animation);
     }
 }
